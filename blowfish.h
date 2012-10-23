@@ -12,8 +12,8 @@
 #define BLOWFISH_MAX_KEY_BYTES 56
 
 typedef struct {
-	uint32_t p[PASSES+2];
-	uint32_t s[4][256];
+    uint32_t p[PASSES+2];
+    uint32_t s[4][256];
 } blowfish_t;
 
 uint32_t P[PASSES + 2] =
